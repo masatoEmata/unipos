@@ -47,7 +47,7 @@ class ScrollDown:
             current_position += speed
 
             #リスクヘッジのため都度データ取得
-            if current_position % 10000 <= speed:
+            if current_position % 50000 <= speed:
                 print("getDataLength:",getDataLength)
                 getDataLength += getup(getDataLength)
             if config["test"] != "True":
