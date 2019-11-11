@@ -1,0 +1,10 @@
+{
+  "speed" : 15,
+  "first_current_position" : 400,
+  "test" : "False",
+  "file_path" : "..\\data\\",
+  "bigquery" : {
+    "dataset_id" : "emata",
+    "table_label" : "unipos" 
+  }
+}
